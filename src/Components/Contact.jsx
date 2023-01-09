@@ -1,8 +1,10 @@
 import React from 'react'
-
+import img1 from '../assets/img8.png'
+import img5 from '../assets/img5.png'
 const Contact = () => {
   return (
-    <div name='Contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
+    <div name='Contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4 md:flex md:flex-col sm:flex sm:flex-col sm:justify-center sm:items-center bg-no-repeat bg-cover'
+      style={{backgroundImage: `url(${img5})`}}>
         <form action="https://getform.io/f/6b53a6dd-21ea-4a1d-a0bd-bf8cac291b42" method="POST" className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-6xl font-bold inline border-b-4 border-pink-600 text-gray-300 md:flex md:flex-col'>
