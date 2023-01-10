@@ -16,42 +16,42 @@ const Skills = () => {
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
               <p className='text-6xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
-              <p className=' text-xl py-4'>// These are the technologies I've worked with:</p>
+              <p className=' text-xl font-sans py-4'>// These are the technologies I've worked with:</p>
           </div>
 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
-                  <p className='my-4'>HTML</p>
+                  <p className='my-4 font-sans'>HTML</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Csharp} alt="C# icon" />
-                  <p className='my-4'>C#</p>
+                  <p className='my-4 font-sans'>C#</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={JavaScript} alt="javascript icon" />
-                  <p className='my-4'>JavaScript</p>
+                  <p className='my-4 font-sans'>JavaScript</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={ReactImg} alt="react icon" />
-                  <p className='my-4'>REACT</p>
+                  <p className='my-4 font-sans'>REACT</p>
               </div>
   
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Java} alt="Java icon" />
-                  <p className='my-5'>Java</p>
+                  <p className='my-5 font-sans'>Java</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-40 h-20 mx-auto' src={azure} alt="Azure icon" />
-                  <p className='my-5'>Azure</p>
+                  <p className='my-5 font-sans'>Azure</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind icon" />
-                  <p className='my-4'>Tailwind</p>
+                  <p className='my-4 font-sans'>Tailwind</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={SQL} alt="Sql icon" />
-                  <p className='my-4'>SQL</p>
+                  <p className='my-4 font-sans'>SQL</p>
               </div>
           </div>
       </div>

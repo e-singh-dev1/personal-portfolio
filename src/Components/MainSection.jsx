@@ -15,7 +15,7 @@ const MainSection = () => {
         <h2 className='text-4xl sm:text-7xl font-bold text-[#ccd6f4]'>
             I'm a Full Stack Developer
         </h2>
-        <p className='text-xl  text-white py-4 max-w-[700px]'>
+        <p className='text-2xl text-bold tracking-wide font-serif text-white py-4 max-w-[700px] m-0 bg-clip-content bg-gradient-to-r from-pink-600 hover:to-yellow-500'>
          Specializing in .Net Core, Azure services and React.
          Exceptional problem solving skills.Excited to leverage my deep expertise in
          development and maintaining scalable,data-driven applications.Equipped with a record
@@ -25,7 +25,7 @@ const MainSection = () => {
         <div>
           <Link to="/Contact">
             <button className=' text-xl text-black bg-yellow-600 font-bold border-black group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-600 hover:border-black  hover:text-black
-                                hover:font-bold'>
+                                hover:font-bold hover:scale-110'>
              Contact
              <span className>
               <HiArrowNarrowRight className='ml-3 ' />

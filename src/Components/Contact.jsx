@@ -1,6 +1,5 @@
 import React from 'react'
-import img1 from '../assets/img8.png'
-import img5 from '../assets/img5.png'
+import img5 from '../assets/img13.avif'
 const Contact = () => {
   return (
     <div name='Contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4 md:flex md:flex-col sm:flex sm:flex-col sm:justify-center sm:items-center bg-no-repeat bg-cover'
@@ -12,11 +11,12 @@ const Contact = () => {
                 </p>
                 <p className='text-2xl text-gray-300 py-4'>//Submit the form below or send me an email to eshansingh510@gmail.com</p>
             </div>
-            <input className='placeholder-black bg-[#ccd6f6] p-4' type="text" placeholder='Name' name='name' requireds/>
-            <input className='placeholder-black my-4 p-4 bg-[#ccd6f6]' type="email" placeholder='Email' name='email' required/>
+            <input className='placeholder-black bg-[#ccd6f6] p-4' type="text" placeholder='Name' name='name'/>
+            <input className='placeholder-black my-4 p-4 bg-[#ccd6f6]' type="email" placeholder='Email' name='email'/>
             <textarea className='placeholder-black bg-[#ccd6f6] p-2' name="message" rows="5" placeholder='Message'></textarea>
-            <button className='text-white border-2 hover:bg-yellow-600 hover:border-black px-4 py-3 my-8 mx-auto flex items-center  hover:text-black
-                                hover:font-bold'>Click for collaborating</button>
+            <button className='text-black border-black font-bold bg-yellow-600 border-2 px-4 py-3 my-8 mx-auto flex items-center hover:scale-110'>
+              Click for collaborating
+              </button>
         </form>
     </div>
   )
