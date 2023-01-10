@@ -15,11 +15,10 @@ const MainSection = () => {
         <h2 className='text-4xl sm:text-7xl font-bold text-[#ccd6f4]'>
             I'm a Full Stack Developer
         </h2>
-        <p className='text-2xl text-bold tracking-wide font-serif text-white py-4 max-w-[700px] m-0 bg-clip-content bg-gradient-to-r from-pink-600 hover:to-yellow-500'>
+        <p className='text-2xl text-bold  font-serif text-white py-4 max-w-[700px] m-0 bg-clip-content bg-gradient-to-r from-pink-600 hover:to-yellow-500'>
          Specializing in .Net Core, Azure services and React.
          Exceptional problem solving skills.Excited to leverage my deep expertise in
-         development and maintaining scalable,data-driven applications.Equipped with a record
-         of success in consistently identifying and providing the technological needs of the company through ingenious innovation.
+         development and maintaining scalable,data-driven applications.
          </p>
         
         <div>
