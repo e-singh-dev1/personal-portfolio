@@ -11,12 +11,12 @@ import ReactImg from '../assets/react.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300 md:flex md:flex-col'>
+    <div name='skills' className='m-0 sm:w-full sm:h-screen bg-[#0a192f] text-gray-300 md:flex md:flex-col sm:flex sm:flex-col sm:m-0 '>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-          <div>
-              <p className='text-6xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
-              <p className=' text-xl font-sans py-4'>// These are the technologies I've worked with:</p>
+          <div className='flex flex-col'>
+              <p className='text-2xl sm:text-6xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
+              <p className='p-10 text-sm font-bold sm:text-xl sm:font-sans sm:py-4'>// These are the technologies I've worked with:</p>
           </div>
 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
