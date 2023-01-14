@@ -9,7 +9,7 @@ const Navbar = () => {
     const [nav,SetNav] = useState(false);
     const handleClick = () => SetNav(!nav);
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-black text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-2 py-4 bg-black text-gray-300'>
         <div>
             <img src={Logo} alt="Logo Image" style={{width:'80px'}} />
         </div>
@@ -17,24 +17,24 @@ const Navbar = () => {
             <ul className='hidden md:flex flex-row space-x-3'>
             <Link to="/">
             <li className=' text-2xl border-2 border-green-600 cursor-pointer px-5 
-                                py-4 rounded-lg  hover:scale-110  hover:bg-yellow-400 hover:text-black hover:font-bold'>
+                                py-2 rounded-lg  hover:scale-110  hover:bg-yellow-400 hover:text-black hover:font-bold'>
              Home
              </li>
            </Link>
 
             <Link to="/Skills">
             <li className=' text-2xl border-2 border-yellow-200 cursor-pointer px-5
-                                py-4 rounded-lg 
+                                py-2 rounded-lg 
                                  hover:scale-110  hover:bg-yellow-400 hover:text-black hover:font-bold'>Skills</li>
             </Link>
             <Link to="/About">
             <li className='text-2xl border-2 border-red-600 cursor-pointer px-5
-                                py-4 rounded-lg 
+                                py-2 rounded-lg 
                                  hover:scale-110  hover:bg-yellow-400 hover:text-black hover:font-bold'>About</li>
             </Link>
             <Link to="Contact">
             <li className='text-2xl border-2 border-violet-600 cursor-pointer 
-                                py-4 rounded-lg  hover:scale-110 hover:bg-yellow-400 hover:text-black
+                                py-2 rounded-lg  hover:scale-110 hover:bg-yellow-400 hover:text-black
                                 hover:font-bold'>Contact</li>
             </Link>
             </ul>
