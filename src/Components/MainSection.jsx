@@ -24,8 +24,8 @@ const MainSection = () => {
         
         <div>
           <Link to="/Contact">
-            <button className=' text-xl text-black bg-yellow-600 font-bold border-black group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-600 hover:border-black  hover:text-black
-             sm:hover:bg-yellow-600 sm:hover:border-black  sm:hover:text-black hover:font-bold hover:scale-110 sm:hover:font-bold sm:hover:scale-110 '>
+            <button className=' text-xl text-black bg-yellow-600 font-bold border-black group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-600  hover:text-black
+             sm:hover:bg-yellow-600  sm:hover:text-black hover:font-bold hover:scale-110 sm:hover:font-bold sm:hover:scale-110 '>
              Contact
              <span>
               <HiArrowNarrowRight className='ml-3' />
