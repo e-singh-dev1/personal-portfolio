@@ -5,7 +5,7 @@ import JavaScript from '../assets/javascript.png';
 import Java from '../assets/java.png';
 import SQL from '../assets/SQl.png';
 import azure from '../assets/azure.png';
-import Csharp from '../assets/Csharp_logo.png';
+import Csharp from '../assets/Csharp_Logo.png';
 import Tailwind from '../assets/tailwind.png';
 import ReactImg from '../assets/react.png'
 
