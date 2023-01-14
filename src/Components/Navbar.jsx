@@ -9,9 +9,9 @@ const Navbar = () => {
     const [nav,SetNav] = useState(false);
     const handleClick = () => SetNav(!nav);
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-2 py-4 bg-black text-gray-300'>
+    <div className='fixed w-full h-[60px] flex justify-between items-center px-2 py-4 bg-black text-gray-300'>
         <div>
-            <img src={Logo} alt="Logo Image" style={{width:'80px'}} />
+            <img src={Logo} alt="Logo Image" style={{width:'60px'}} />
         </div>
         
             <ul className='hidden md:flex flex-row space-x-3'>
